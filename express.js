@@ -40,7 +40,7 @@ io.on("connection", function(socket) {
   });
 });
 // nodejs server
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 10000;
 server.listen(port, function(req, res) {
   console.log("Server has started at port 3000");
 });
